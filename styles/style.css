@@ -1,0 +1,431 @@
+body {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {    
+    position: relative;
+    border-radius: 20px;
+    background-color: var(--luchtBlauw);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1rem 0;
+    top: 0;
+    z-index: 1;
+    position: sticky;
+    box-shadow: 0px 4px 15px var(--primaryAccent);
+}
+
+/* MARK: Logo van de buurtcampus */
+.logo {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+
+/* MARK: Illustraties van de huisstijlgids */
+.huisje {
+    display: none;
+    position: absolute;
+    width: 100%;
+    max-width: 50px;
+    bottom: 0;
+    left: 10%;
+    
+    @media (min-width: 834px){
+        display: block;
+        left: 5%;
+    }
+}
+
+.wolk {
+    display: none;
+    position: absolute;
+    width: 100%;
+    max-width: 100px;
+    top: 25%;
+    right: 1%;
+
+    @media (min-width: 834px){
+        display: block;
+    }
+}
+
+.wolk2 {
+    display: none;
+    position: absolute;
+    width: 100%;
+    max-width: 100px;
+    top: 10%;
+    right: 15%;
+    rotate: 180deg;
+
+    @media (min-width: 834px){
+        display: block;
+    }
+}
+
+.wolk3 {
+    display: none;
+    position: absolute;
+    width: 100%;
+    max-width: 100px;
+    top: 15%;
+    right: 28%;
+
+    @media (min-width: 834px){
+        display: block;
+    }
+}
+
+.vogel {
+    display: none;
+    position: absolute;
+    width: 100%;
+    max-width: 25px;
+    top: 10%;
+    right: 8%;
+    transform: scale(-1, 1);
+
+    @media (min-width: 834px){
+        display: block;
+    }
+}
+
+.vogel2 {
+    display: none;
+    position: absolute;
+    width: 100%;
+    max-width: 25px;
+    top: 20%;
+    right: 25%;
+    transform: scale(-1, 1);
+
+    @media (min-width: 834px){
+        display: block;
+    }
+}
+
+.boom {
+    display: none;
+    position: absolute;
+    width: 100%;
+    max-width: 80px;
+    bottom: -5px;
+    right: 7%;
+    
+    @media (min-width: 834px){
+        display: block;
+    }
+}
+
+.boom2 {
+    display: none;
+    position: absolute;
+    width: 100%;
+    max-width: 50px;
+    bottom: -3px;
+    right: 6%;
+    
+    @media (min-width: 834px){
+        display: block;
+    }
+}
+
+.kat {
+    display: none;
+    position: absolute;
+    width: 100%;
+    max-width: 25px;
+    bottom: 0;
+    right: 15%;
+    
+    @media (min-width: 834px){
+        display: block;
+    }
+}
+
+.oranjekat {
+    display: none;
+    position: absolute;
+    width: 100%;
+    max-width: 20px;
+    bottom: 0;
+    right: 12%;
+    transform: scale(-1, 1);
+
+    @media (min-width: 834px){
+        display: block;
+    }
+}
+
+.blauwkat {
+    display: none;
+    position: absolute;
+    width: 100%;
+    max-width: 40px;
+    bottom: 0;
+    left: 25%;
+
+    @media (min-width: 834px){
+        display: block;
+        left: 20%;
+    }
+}
+
+/* MARK: Locaties */
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 1;
+}
+
+/* MARK: Navigatie */
+.nav ul {
+    list-style-type: none;
+    font-weight: 600;
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 1rem; */
+    padding: 0;
+    margin: 0;
+
+    @media (min-width: 834px) {
+        font-size: 18px;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    @media (min-width: 1440px) {
+        font-size: 20px;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+/* MARK: alle a elementen van de nav */
+.nav a {
+    display: block;
+    text-decoration: none;
+    padding: 13px;
+    text-align: center;
+    text-decoration: none;
+    color: var(--paarsBlauw);
+}
+
+/* MARK: Filter, H1 en Archief  */
+.boven-bar {
+    position: relative;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    margin: 0;
+    top: -1rem;
+}
+
+/* MARK: Filterknop en archief knop styling*/
+.filter-knop,
+.archief-knop {
+    display: flex;
+    align-items: center;
+    background-color: var(--paarsBlauw);
+    color: var(--primaryAccent);
+    border: none;
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* MARK: Hover effect op de filter en archief knoppen */
+.filter-knop:hover,
+.archief-knop:hover {
+    background-color: var(--torenOranje);
+    color: var(--primaryAccent);
+    border: none;
+}
+
+.filter-icon, .archive-icon {
+    width: 21px;
+    height: 20px;
+    margin-right: 0.5rem;
+}
+
+h1 {
+    text-align: center;
+    color: var(--paarsBlauw);
+}
+
+h2 {
+    text-align: left;
+    font-size: 1.75rem;
+    color: var(--primaryAccent);
+}
+
+h3 {
+    color: var(--paarsBlauw);
+    font-size: 1.3rem;
+}
+
+.heading-lately {
+    color: var(--primaryAccent);
+}
+
+.meer-nieuws {
+    margin: 1rem;
+    color: var(--paarsBlauw);
+    text-align: center;
+
+    @media (min-width: 834px) {
+        display: none;
+    }
+}
+
+.news-container {
+    margin: 1rem;
+}
+
+.news-grid {
+    display: grid;
+    gap: 1rem;
+
+    @media (min-width: 834px) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media (min-width: 1440px) {
+        grid-template-columns: repeat(3, 1fr)
+    
+    }
+
+}
+.article-content {
+    display: flex;
+
+    @media (min-width: 834px) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media (min-width: 1440px) {
+        grid-template-columns: repeat(3, 1fr)
+    
+    }
+
+}
+
+.flexbox-content {
+    /* display: flex; */
+    flex-direction: column;
+    background-color: var(--luchtBlauw);
+    border-radius: 25px;
+    padding: 1em;
+    line-height: 1.4;
+    justify-content: stretch;
+}
+
+.article-img {
+    object-fit: cover;
+    border-radius: 20px;
+    width: 100%;
+}
+
+.lately-datum {
+    color: var(--primaryAccent);
+    font-weight: var(--font-weight-semibold);
+}
+
+.datum {
+    color: var(--paarsBlauw);
+    font-weight: var(--font-weight-semibold);
+}
+
+.beschrijving {
+    flex-grow: 1;
+    color: var(--paarsBlauw);
+}
+
+p {
+    font-size: 1em; 
+    max-width: 60ch;
+
+}
+
+article:nth-of-type(1) {
+    --luchtBlauw: var(--paarsBlauw);
+    color: var(--primaryAccent);
+}
+
+/* MARK: Lees meer knop */
+.read-button {
+    background-color: var(--torenOranje);
+    color: var(--primaryAccent);
+    border-radius: 20px;
+    border: none;
+    padding: 6px 10px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    align-self: flex-end;
+    text-decoration: none;
+}
+
+/* MARK: Hover styling van lees meer knop */
+.read-button:hover {
+    background-color: var(--modder);
+    color: var(--primaryAccent);
+}
+
+footer {
+    background-color: var(--luchtBlauw);
+    text-align: center;
+}
+
+.input-email {
+    appearance: none;
+    font-size: 1em;
+    border-radius: 100px;
+    border: none;
+    height: 1.5em;
+    transition: 0.5s;
+    padding-left: 2em;
+    background-image: url("/assets/mail-knop.png");
+    background-size: 1.4em auto;
+    background-repeat: no-repeat;
+    background-position: .550em center;
+
+    &::placeholder {
+        font-style: italic;
+        padding-left: 3px;
+    }
+
+    &:focus,
+    &:active {
+        background-image: url("/assets/mail-knop2.png");
+        outline: none;
+        height: 2em;
+    }
+}
+
+.submit {
+    background-color: var(--torenOranje);
+    color: #ffffff;
+    border: 0 solid #ffffff;
+    border-radius: 100px;
+    padding: 0.7em 1em;
+    font-weight: 400;
+    cursor: pointer;
+    align-self: flex-start;
+    text-decoration: none;
+
+    &:hover {
+        background-color: var(--modder);
+        transition: background-color 0.5s;
+    }
+}

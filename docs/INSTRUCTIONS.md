@@ -1,49 +1,43 @@
-# Fix the Flow - Interactive Website
+# Look and Feel - Corporate Identity
 
-Ontwerp en maak een interactieve website voor een opdrachtgever.
+Ontwerp en maak voor een opdrachtgever een website op basis van een bestaande huisstijl.
 
 ## Context
 
-Deze leertaak hoort bij Sprint 5 _Fix the Flow_, dit is een leertaak die je individueel uitvoert.
-
-
-<!-- 
-Bij deze leertaak horen de deeltaken:
-- [Fix-the-flow-wireflow](https://github.com/fdnd-task/fix-the-flow-wireflow)
-- [Fix-the-flow-ui-events](https://github.com/fdnd-task/fix-the-flow-ui-events)  
-
--->
+Deze leertaak hoort bij Sprint 4 Look and Feel. Dit is een opdracht die je individueel en in een team uitvoert voor een opdrachtgever.
 
 ## Doel van deze opdracht
 
-Je leert hoe je goede interactie kan ontwerpen en bouwen. 
-
+Je leert hoe je een huisstijl kan toepassen en hoe je een styleguide kan ontwerpen, maken en gebruiken.
 
 ## Werkwijze
 
-Deze leertaak wordt behandeld in Sprint 5.
+Deze leertaak wordt behandeld in Sprint 4. 
 
-Nadat je de Sprint planning hebt gedaan, ga je leren hoe je goede interactie kan ontwerpen, coderen en testen.
+Nadat je eerst de Sprint planning hebt gedaan, ga je met de studenten die dezelfde opdracht hebben een *styleguide* samenstellen. 
+Het doel is dat jullie gezamenlijk een gedeelde stylesheet gaan maken om te gebruiken in je eigen project.
 
-Deze sprint worden weer verschillende workshops aangeboden:
+Deze sprint worden verschillende workshops aangeboden:
 
 - [Sprint planning](sprint-planning.md)
-- [User Interface Design](user-interface-design.md)
-- [Programming User Interaction](programming-user-interaction.md)
-- [Code/Design review Programming User Interaction](code-design-review-programming-user-interaction.md)
-- [Deeltaak UI events](https://github.com/fdnd-task/ui-events)
-- [Forms en states](form-states.md)
-- [Code/Design review User Testing](code-design-review-user-testing.md)
-- [Navigeren en labels](navigeren-en-labels.md)
+- [Styleguide](styleguide.md)
+- [Stylesheet](stylesheet.md)
+- [Code/Design review - Stylesheet](code-design-review-stylesheet.md)
+- [Typografie en leesbaarheid](typografie-en-leesbaarheid.md)
+- [Formulieren](formulieren.md)
+- [Code/Design review - Huisstijl toepassen](code-design-review-huisstijl-toepassen.md)
+- [Layout en compositie](layout-en-compositie.md)
 - [Wrap up](wrap-up.md)
 
 
-## Criteria
+## Definition of done
 
 Deze opdracht is done als:
 
-- [ ] Je hebt aan de hand van een user story en wireflow een interactie ontworpen
-- [ ] Je hebt een interactie met HTML, CSS en JS gebouwd volgens het 3 stappenplan
-- [ ] Je hebt aan de hand van een testplan een user test gedaan, de testresultaten gebruikt voor een nieuwe versie, en opnieuw getest
-- [ ] Je hebt de ontwerpkeuzes voor jouw UI gedocumenteerd in de Readme
-- [ ] Je hebt de feedback van de opdrachtgever verwerkt en deze getest voor eindgebruikers en je project gepresenteerd tijdens de laatste sprint review
+- [ ] Je hebt met een team een styleguide ontworpen en een gedeelde stylesheet gemaakt
+- [ ] Je maakt gebruik van de gedeelde stylesheet, de CSS cascade, specificity en custom properties
+- [ ] Je hebt aantoonbaar gebruik gemaakt van Gestalt principes voor de layout en compositie
+- [ ] Je hebt een formulier met verschillende formulier elementen ontworpen en gemaakt
+- [ ] Je hebt gestructureerd en iteratief aan de hand van issues de feedback van de opdrachtgever verwerkt en deze getest voor eindgebruikers
+- [ ] Jouw website voldoet aan de huisstijl van de opdrachtgever
+

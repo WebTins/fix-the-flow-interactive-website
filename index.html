@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buurtcampus</title>
+    <link rel="stylesheet" href="https://webtins.github.io/look-and-feel-styleguide/styleguide-buurtcampuskrant.css">
+    <link rel="stylesheet" href="styles/style.css">
+    
+    <body>
+
+    <!-- Header van de website -->
+    <header>
+        <!-- Logo van de website -->
+        <img class="logo" src="assets/LogoBlurple.png" alt="Buurtcampus Krant">
+        <img class="huisje" src="assets/huisje.png" alt="">
+        <img class="wolk" src="assets/wolken.png" alt="">
+        <img class="wolk2" src="assets/wolken.png" alt="">
+        <img class="wolk3" src="assets/wolken.png" alt="">
+        <img class="vogel" src="assets/vogel.png" alt="">
+        <img class="vogel2" src="assets/vogel.png" alt="">
+        <img class="boom" src="assets/boom.png" alt="">
+        <img class="boom2" src="assets/boom.png" alt="">
+        <img class="kat" src="assets/kat.png" alt="">
+        <img class="oranjekat" src="assets/oranjekat.png" alt="">
+        <img class="blauwkat" src="assets/blauwkat.png" alt="">
+
+
+        <!-- Navigatie voor de locaties -->
+        <nav class="nav">
+            <ul>
+                <li> <a href="">Algemeen</a></li>
+                <li> <a href="">Zuidoost</a></li>
+                <li> <a href="">Oost</a></li>
+                <li> <a href="">Nieuw-West</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main content -->
+    <main>
+        <!-- Artikel box content -->
+        <section class="news-container">
+            <h1>Artikelen</h1>
+            <div class="boven-bar">
+                <button class="filter-knop"> <img class="filter-icon" src="assets/filter-icon.png">Filter</button>
+                <button class="archief-knop"> <img class="archive-icon" src="assets/archive-icon.png">Archief</button>
+            </div>
+            <div class="news-grid">
+                <article class="article-content">
+                    <div class="flexbox-content">
+                        <h2>Laatste nieuws!</h2>
+                        <img class="article-img" src="assets/tanja.png" alt="tanja-jadnanansing" style="--op-y:10%;">
+                        <span class="lately-datum">18-9-2025</span>
+                        <h3 class="heading-lately">In gesprek met stadsdeelvoorzitter Tanja Jadnanansing...</h3>
+                        <p class="description-lately">Tanja Jadnanansing, voorzitter van het bestuur in stadsdeel Zuidoost,
+                            geeft jaarlijks een gastles aan studenten Bestuurskunde tijdens het vak De Rechtvaardige
+                            Stad. Ze bespreekt haar visie op rechtvaardigheid en de rol van bestuurders in onze
+                            samenleving, en reflecteert op ervaringen en inzichten die ze graag doorgeeft aan studenten.
+                        </p>
+                        <button class="read-button">Lees meer</button>
+                    </div>
+                </article>
+
+                <h2 class="meer-nieuws">Lees nog meer:</h2>
+
+                <article class="article-content">
+                    <div class="flexbox-content">
+                        <img class="article-img" src="assets/motuin.jpeg" alt="motuin-hoektuin"
+                            style="--op-x:25%; --op-y:25%;">
+                        <span class="datum">18-9-2025</span>
+                        <h3>Motuin & Hoektuin: De groene verbinders van de Transvaalbuurt</h3>
+                        <p class="beschrijving">Het is een nazomermiddag in de Hoektuin en Sameena Safiruddin, een van
+                            de oprichters van deze groene oase in de stad, zet thee van zelfgeplukte kruiden voor ons
+                            neer. Zij en Eelco Baarda, vaste vrijwilliger bij meerdere tuinen in Oost, vormen het
+                            kloppende hart van deze zeldzame stadstuin</p>
+                        <button class="read-button">Lees meer</button>
+                    </div>
+                </article>
+
+                <article class="article-content">
+                    <div class="flexbox-content">
+                        <img class="article-img" src="assets/adil.jpeg" alt="adil" style="--op-y:35%;">
+                        <span class="datum">18-9-2025</span>
+                        <h3>Partners in beeld: het buurtteam Nieuw-West</h3>
+                        <p class="beschrijving">‘Deze samenwerkingsvorm is een van de belangrijkste die er is.’
+                            Buurtteam - medewerker Adil vertelt over het spreekuur van de Buurtcampus en het Buurtteam
+                            Nieuw-West</p>
+                        <button class="read-button">Lees meer</button>
+                    </div>
+                </article>
+
+                <article class="article-content">
+                    <div class="flexbox-content">
+                        <img class="article-img" src="assets/jenny.jpeg" alt="jenny" style="--op-y:25%;">
+                        <span class="datum">18-9-2025</span>
+                        <h3>Partners in beeld: ‘Ik geniet ervan om mensen met een glimlach de deur uit te zien gaan.’
+                            Maak kennis met buurtteam - baliemedewerker Jenny Martinez</h3>
+                        <p class="beschrijving">Iedere maandagmiddag heeft de Buurtcampus spreekuur bij het Buurtteam
+                            Zuidoost. We trokken buurtteam - medewerker Jenny Martinez aan haar mouw om te vragen hoe
+                            die samenwerking haar bevalt</p>
+                        <button class="read-button">Lees meer</button>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <form class="register-form">
+            <label for="email"><h3 class="title-form">Meld je aan voor de nieuwsbrief!</h3></label> 
+            <input type="email" class="input-email" id="email" placeholder="Voer hier je emailadres in" pattern=".+@example\.com" size="30" required>
+            <button class="submit">Aanmelden</button>
+        </form>
+    </footer>
+
+    </body>
+
+</html>
