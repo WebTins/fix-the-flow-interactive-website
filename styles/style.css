@@ -258,6 +258,34 @@ nav {
     margin-right: 0.5rem;
 }
 
+.filter {
+    display: none;
+}
+
+.filter-visible {
+    display: block;
+    border: none;
+
+ul {
+    list-style: none;
+    padding: 0;
+    line-height: 1.4;
+    position: absolute;
+    background-color: white;
+    box-shadow:  0px 0px 25px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    padding: .5rem 1rem;
+    left: 4em;
+    cursor: pointer;
+}
+
+.doelgroep {
+    cursor: pointer;
+}
+
+}
+
+
 h1 {
     text-align: center;
     color: var(--paarsBlauw);
