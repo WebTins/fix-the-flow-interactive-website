@@ -1,3 +1,7 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 body {
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
@@ -266,24 +270,23 @@ nav {
     display: block;
     border: none;
 
-ul {
-    list-style: none;
-    padding: 0;
-    line-height: 1.4;
-    position: absolute;
-    background-color: white;
-    box-shadow:  0px 0px 25px rgba(0, 0, 0, 0.2);
-    border-radius: 20px;
-    padding: .5rem 1rem;
-    left: 4em;
-    cursor: pointer;
-}
+    ul {
+        list-style: none;
+        padding: 0;
+        line-height: 1.4;
+        position: absolute;
+        background-color: white;
+        box-shadow:  0px 0px 25px rgba(0, 0, 0, 0.2);
+        border-radius: 20px;
+        padding: .5rem 1rem;
+        left: 4em;
+        cursor: pointer;
+    }
 
-.doelgroep {
-    cursor: pointer;
-}
-
-}
+    .doelgroep {
+        cursor: pointer;
+    }
+}   
 
 
 h1 {
@@ -377,6 +380,7 @@ h3 {
 .beschrijving {
     flex-grow: 1;
     color: var(--paarsBlauw);
+    font-weight: var(--font-weight-semibold);
 }
 
 p {
