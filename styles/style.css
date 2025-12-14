@@ -224,7 +224,7 @@ nav {
 }
 
 /* MARK: Filter, H1 en Archief  */
-.boven-bar {
+.upper-bar {
     position: relative;
     display: flex;
     justify-content: space-between; 
@@ -234,8 +234,9 @@ nav {
 }
 
 /* MARK: Filterknop en archief knop styling*/
-.filter-knop,
-.archief-knop,
+/* De filter-button class wordt ook gebruikt voor de interactie*/
+.filter-button,
+.archive-button,
 .apply-button {
     display: flex;
     align-items: center;
@@ -250,14 +251,16 @@ nav {
 }
 
 /* MARK: Hover effect op de filter en archief knoppen */
-.filter-knop:hover,
-.archief-knop:hover,
+.filter-button:hover,
+.archive-button:hover,
 .apply-button:hover {
     background-color: var(--torenOranje);
     color: var(--primaryAccent);
     border: none;
 }
 
+
+/* Deze class wordt gebruikt voor de interactie "Gereed" */
 .apply-button {
     justify-self: end;
 }
@@ -272,6 +275,7 @@ nav {
     display: none;
 }
 
+/* Deze class wordt ook gebruikt voor de interactie */
 .filter-visible {
     display: block;
     border: none;
@@ -289,7 +293,7 @@ nav {
         cursor: pointer;
     }
 
-    .doelgroep {
+    .target-audience {
         cursor: pointer;
     }
 }   
@@ -315,7 +319,7 @@ h3 {
     color: var(--primaryAccent);
 }
 
-.meer-nieuws {
+.more-news {
     margin: 1rem;
     color: var(--paarsBlauw);
     text-align: center;
@@ -380,27 +384,31 @@ h3 {
     border-radius: 15px;
 }
 
-.lately-datum {
+.lately-date {
     color: var(--primaryAccent);
     font-weight: var(--font-weight-semibold);
 }
 
-.datum {
+.date {
     color: var(--paarsBlauw);
     font-weight: var(--font-weight-semibold);
 }
 
-.beschrijving,
+.description,
 .description-lately {
   line-height: 1.5;
   font-size: 1em;
   /* Grid zorgt automatisch dat deze de ruimte (1fr) krijgt */
 }
 
+.description-lately {
+    color: var(--primaryAccent);
+}
+
 p {
     font-size: 1em; 
     max-width: 60ch;
-
+    color: var(--paarsBlauw);
 }
 
 article:nth-of-type(1) {

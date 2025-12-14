@@ -1,5 +1,5 @@
 // Selecteer de button om alle artikelen te kunnen verbergen
-let filterButton = document.querySelector('.filter-knop')
+let filterButton = document.querySelector('.filter-button')
 
 // Even checken of de juiste button geselecteerd wordt
 // console.log(filterknop)
