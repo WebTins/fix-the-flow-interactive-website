@@ -6,12 +6,12 @@ let filterButton = document.querySelector('.filter-button')
 // Wacht totdat iemand erop klikt
 filterButton.addEventListener('click', function() {
     // Verberg alle artikelen
-    document.querySelector('.filter').classList.toggle('filter-visible')
+    document.querySelector('.filter').classList.toggle('filter-visible', 'filter-button:focus')
 })
 
 
 let applyButton = document.querySelector('.apply-button')
 
 applyButton.addEventListener('click', function (){
-    document.querySelector('.filter').classList.remove('filter-visible')
+    document.querySelector('.filter').classList.remove('filter-visible', 'filter-button:focus')
 })
