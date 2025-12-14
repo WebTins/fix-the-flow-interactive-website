@@ -259,6 +259,9 @@ nav {
     border: none;
 }
 
+.filter-button:focus {
+    background-color: var(--torenOranje);
+}
 
 /* Deze class wordt gebruikt voor de interactie "Gereed" */
 .apply-button {
