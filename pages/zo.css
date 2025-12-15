@@ -1,0 +1,437 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Root kleuren voor de huisstijl */
+:root {
+    --lichtblauw: hsl(221, 23%, 76%);
+    --blauw: hsl(239, 35%, 30%);
+    --oranje: hsl(21, 90%, 48%);
+    --wit: hsl(0, 0%, 100%);
+}
+
+/* body van de website */
+body {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header waar content bovenaan de pagina staat */
+header {    
+    position: relative;
+    border-radius: 20px;
+    background-color: var(--zee);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1rem 0;
+}
+
+.locatie-zuidoost {
+    border: solid;
+    border-radius: 100px;
+    border-color: var(--primaryAccent);
+}
+
+/* Logo van de buurtcampus */
+.logo {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+
+/* Illustraties van de huisstijlgids */
+.huisje {
+    display: none;
+    position: absolute;
+    width: 100%;
+    max-width: 50px;
+    bottom: 0;
+    left: 10%;
+    
+    @media (min-width: 834px){
+        display: block;
+    }
+}
+
+.tulp {
+    display: none;
+    position: absolute;
+    width: 100%;
+    max-width: 30px;
+    bottom: 0;
+    left: 23%;
+    
+    @media (min-width: 834px){
+        display: block;
+    }
+}
+
+.tulp2 {
+    display: none;
+    position: absolute;
+    width: 100%;
+    max-width: 35px;
+    bottom: 0;
+    left: 26%;
+    
+    @media (min-width: 834px){
+        display: block;
+    }
+}
+
+.tulp3 {
+    display: none;
+    position: absolute;
+    width: 100%;
+    max-width: 45px;
+    bottom: 0;
+    left: 24%;
+    
+    @media (min-width: 834px){
+        display: block;
+    }
+}
+
+
+.wolk {
+    display: none;
+    position: absolute;
+    width: 100%;
+    max-width: 100px;
+    top: 25%;
+    right: 1%;
+
+    @media (min-width: 834px){
+        display: block;
+    }
+}
+
+.wolk2 {
+    display: none;
+    position: absolute;
+    width: 100%;
+    max-width: 100px;
+    top: 10%;
+    right: 15%;
+    rotate: 180deg;
+
+    @media (min-width: 834px){
+        display: block;
+    }
+}
+
+.wolk3 {
+    display: none;
+    position: absolute;
+    width: 100%;
+    max-width: 100px;
+    top: 15%;
+    right: 28%;
+
+    @media (min-width: 834px){
+        display: block;
+    }
+}
+
+.vogel {
+    display: none;
+    position: absolute;
+    width: 100%;
+    max-width: 25px;
+    top: 10%;
+    right: 8%;
+    transform: scale(-1, 1);
+
+    @media (min-width: 834px){
+        display: block;
+    }
+}
+
+.vogel2 {
+    display: none;
+    position: absolute;
+    width: 100%;
+    max-width: 25px;
+    top: 20%;
+    right: 25%;
+    transform: scale(-1, 1);
+
+    @media (min-width: 834px){
+        display: block;
+    }
+}
+
+.boom {
+    display: none;
+    position: absolute;
+    width: 100%;
+    max-width: 80px;
+    bottom: -5px;
+    right: 7%;
+    
+    @media (min-width: 834px){
+        display: block;
+    }
+}
+
+.boom2 {
+    display: none;
+    position: absolute;
+    width: 100%;
+    max-width: 50px;
+    bottom: -3px;
+    right: 6%;
+    
+    @media (min-width: 834px){
+        display: block;
+    }
+}
+
+.witkat {
+    display: none;
+    position: absolute;
+    width: 100%;
+    max-width: 25px;
+    bottom: 0;
+    right: 15%;
+    
+    @media (min-width: 834px){
+        display: block;
+    }
+}
+
+.oranjekat {
+    display: none;
+    position: absolute;
+    width: 100%;
+    max-width: 20px;
+    bottom: 0;
+    right: 12%;
+    transform: scale(-1, 1);
+
+    @media (min-width: 834px){
+        display: block;
+    }
+}
+
+/* Locaties */
+.locaties {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 1;
+}
+
+/* Navigatie */
+.nav ul {
+    list-style-type: none;
+    font-weight: 600;
+    display: flex;
+    gap: 1rem;
+    padding: 0;
+    margin: 0;
+
+    @media (min-width: 834px) {
+        font-size: 18px;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    @media (min-width: 1440px) {
+        font-size: 20px;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+/* alle a elementen van de nav */
+.nav a {
+    display: block;
+    text-decoration: none;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    color: var(--primaryAccent);
+}
+
+h1 {
+    text-align: center;
+    color: var(--zee);
+}
+
+/* MARK: Filter, H1 en Archief  */
+.upper-bar {
+    position: relative;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    margin: 0;
+    top: -1rem;
+}
+
+/* MARK: Filterknop en archief knop styling*/
+/* De filter-button class wordt ook gebruikt voor de interactie*/
+.filter-button,
+.archive-button,
+.apply-button {
+    display: flex;
+    align-items: center;
+    background-color: var(--zee);
+    color: var(--primaryAccent);
+    border: none;
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* MARK: Hover effect op de filter en archief knoppen */
+.filter-button:hover,
+.archive-button:hover,
+.apply-button:hover {
+    background-color: var(--modder);
+    color: var(--);
+    border: none;
+}
+
+.filter-button:focus {
+    background-color: var(--modder);
+}
+
+/* Deze class wordt gebruikt voor de interactie "Gereed" */
+.apply-button {
+    justify-self: end;
+}
+
+.filter-icon, .archive-icon {
+    width: 21px;
+    height: 20px;
+    margin-right: 0.5rem;
+}
+
+.filter {
+    display: none;
+}
+
+/* Deze class wordt ook gebruikt voor de interactie */
+.filter-visible {
+    display: block;
+    border: none;
+
+    ul {
+        list-style: none;
+        padding: 0;
+        line-height: 1.4;
+        position: absolute;
+        background-color: white;
+        box-shadow:  0px 0px 25px rgba(0, 0, 0, 0.2);
+        border-radius: 20px;
+        padding: .5rem 1rem;
+        left: 4em;
+        cursor: pointer;
+    }
+
+    .target-audience {
+        cursor: pointer;
+    }
+}   
+
+/* News-container responsiveness */
+.news-container {
+    @media (min-width: 834px) {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr)
+    }
+
+    @media (min-width: 1440px) {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr)
+        
+    }
+    
+}
+
+.article-content
+ {
+    background-color: var(--zee);
+    color: var(--primaryAccent);
+    display: grid;
+    height: auto;
+    border-radius: 25px;
+    padding: 1rem;
+    margin: 1rem;
+
+    @media (min-width: 834px) {
+        display: flex;
+        height: auto;
+        border-radius: 25px;
+        grid-template-columns: repeat(2, 1fr)
+    }
+}
+
+/* Afbeelding van het artikel */
+.article-img {
+    width: 100%;
+    height: 200px;
+    /* Vaste hoogte voor consistentie */
+    object-fit: cover;
+    object-position: var(--op-x, 50%) var(--op-y, 50%);
+    border-radius: 15px;
+}
+
+.datum {
+    font-size: 0.7rem;
+    margin: 0.5rem 0;
+    font-weight: bold;
+}
+
+/* Titel van het artikel */
+h2 {
+    margin: 0;
+}
+
+/* Beschrijving van het artikel */
+.beschrijving {
+    line-height: 1.4;
+    flex-grow: 1;
+}
+
+/* Content in de box */
+.flexbox-content {
+    display: flex;
+    flex-direction: column;
+
+    @media (min-width: 834px) {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
+
+/* Lees meer knop */
+.read-button {
+    font-size: 1rem;
+    background-color: var(--primaryAccent);
+    color: var(--zee);
+    border: none;
+    border-radius: 20px;
+    padding: 6px 10px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    align-self: flex-end;
+    text-decoration: none;
+}
+
+/* Hover styling van lees meer knop */
+.read-button:hover {
+    background-color: var(--modder);
+    color: var(--primaryAccent);
+    border: none;
+}
