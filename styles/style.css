@@ -254,13 +254,13 @@ nav {
 .filter-button:hover,
 .archive-button:hover,
 .apply-button:hover {
-    background-color: var(--secondaryAccent);
-    color: var(--primaryAccent);
+    background-color: var(--modder);
+    color: var(--);
     border: none;
 }
 
 .filter-button:focus {
-    background-color: var(--secondaryAccent);
+    background-color: var(--modder);
 }
 
 /* Deze class wordt gebruikt voor de interactie "Gereed" */
