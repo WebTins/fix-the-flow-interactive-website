@@ -292,7 +292,8 @@ nav {
         box-shadow:  0px 0px 25px rgba(0, 0, 0, 0.2);
         border-radius: 20px;
         padding: .5rem 1rem;
-        left: 4em;
+        left: 0;
+        top: 1.5em;
         cursor: pointer;
     }
 
