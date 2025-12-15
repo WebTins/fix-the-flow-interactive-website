@@ -421,8 +421,9 @@ article:nth-of-type(1) {
 
 /* MARK: Lees meer knop */
 .read-button {
-    background-color: var(--secondaryAccent);
-    color: var(--primaryAccent);
+    font-size: 1rem;
+    background-color: var(--primaryAccent);
+    color: var(--paarsBlauw);
     border-radius: 20px;
     border: none;
     padding: 0.7em 1.2em;
@@ -464,16 +465,15 @@ footer {
 
     &:focus,
     &:active {
-        background-image: url("/assets/mail-knop2.png");
         outline: none;
         height: 2em;
     }
 }
 
 .submit {
-    background-color: var(--torenOranje);
-    color: #ffffff;
-    border: 0 solid #ffffff;
+    background-color: var(--paarsBlauw);
+    color: var(--primaryAccent);
+    border: 0 solid var(--primaryAccent);
     border-radius: 100px;
     padding: 0.7em 1em;
     font-weight: 400;
