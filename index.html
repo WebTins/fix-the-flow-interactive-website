@@ -43,19 +43,32 @@
         <!-- Artikel box content -->
         <section class="news-container">
             <h1>Artikelen</h1>
-            <div class="upper-bar">
-                <button class="filter-button"> <img class="filter-icon" src="assets/filter-icon.png">Filter</button>
+            <form class="upper-bar">
+                <button type="button" class="filter-button">
+                    <img class="filter-icon" src="assets/filter-icon.png" alt="Filter icoon">Filter
+                </button>
                 <div class="filter">
                     <ul>
-                        <label><li class="target-audience"><input type="checkbox"> Studenten</li></label>
-                        <label><li class="target-audience"><input type="checkbox"> Bewoners</li></label>
-                        <label><li class="target-audience"><input type="checkbox"> Wijkpartners</li></label>
-                        <label><li class="target-audience"><input type="checkbox"> HvA medewerkers</li></label>
-                        <button class="apply-button">Gereed</button>
+                        <li class="target-audience">
+                            <label><input type="checkbox" name="audience" value="studenten"> Studenten</label>
+                        </li>
+                        <li class="target-audience">
+                            <label><input type="checkbox" name="audience" value="bewoners"> Bewoners</label>
+                        </li>
+                        <li class="target-audience">
+                            <label><input type="checkbox" name="audience" value="wijkpartners"> Wijkpartners</label>
+                        </li>
+                        <li class="target-audience">
+                            <label><input type="checkbox" name="audience" value="hva-medewerkers"> HvA
+                                medewerkers</label>
+                        </li>
+                        <button type="button" class="apply-button">Gereed</button>
                     </ul>
                 </div>
-                <button class="archive-button"> <img class="archive-icon" src="assets/archive-icon.png">Archief</button>
-            </div>
+                <button type="button" class="archive-button">
+                    <img class="archive-icon" src="assets/archive-icon.png" alt="Archief icoon">Archief
+                </button>
+            </form>
             <div class="news-grid">
                 <article class="article-content">
                     <div class="flexbox-content">
