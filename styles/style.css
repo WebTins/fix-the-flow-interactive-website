@@ -2,6 +2,16 @@ h1, h2, h3, h4, h5, h6 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    
+    to {
+        opacity: 1;
+    }
+}
+
 body {
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
@@ -352,10 +362,13 @@ h3 {
 
 }
 .article-content {
+    animation: fade-in linear;
+    animation-timeline: view();
+    animation-range: 0% 25%;
     display: flex;
     flex-direction: column;
     height: 100%;
-
+    z-index: -1;
 }
 
 .flexbox-content {
