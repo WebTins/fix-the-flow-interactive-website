@@ -2,6 +2,16 @@ h1, h2, h3, h4, h5, h6 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    
+    to {
+        opacity: 1;
+    }
+}
+
 /* Root kleuren voor de huisstijl */
 :root {
     --lichtblauw: hsl(221, 23%, 76%);
@@ -359,6 +369,9 @@ h1 {
 
 .article-content
  {
+    animation: fade-in linear;
+    animation-timeline: view();
+    animation-range: 0% 25%;
     background-color: var(--zee);
     color: var(--primaryAccent);
     display: grid;
