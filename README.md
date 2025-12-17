@@ -5,6 +5,8 @@ Tijdens sprint 5 ben ik vooral bezig geweest met het uitbreiden van de website. 
 ### Wat is de Buurtcampuskrant?
 De Buurtcampuskrant is een digitale krant die iedereen kan lezen maar voornamelijk voor mensen die in Amsterdam wonen. Het doel is om iedereen op de hoogte te brengen wat er gebeurd in de verschillende buurten. De doelgroepen van de Buurtcampus zijn: Studenten, Bewoners, Wijkpartners en HvA medewerkers. De Buurtcampuskrant brengt dus mensen samen die ook meer te komen weten over andere buurten als zij er geïnteresseerd in zijn.
 
+### Vraag van de opdrachtgever
+Maak een website die gebruikers kunnen gebruiken als een digitale krant waar ze nieuws kunnen lezen en kunnen filteren op doelgroep. De digitale krant moet dezelfde uiterlijk en gevoel geven zoals de fysieke krant die elke 1,5 jaar wordt uitgebracht.
  
 ## Beschrijving
 <!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
