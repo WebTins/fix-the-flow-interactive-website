@@ -28,6 +28,12 @@ Het ontwerp dat ik heb gekozen is de afgelopen paar sprints wel aangepast maar o
 
 Scroll animatie heb ik toegevoegd voor een mooie verschijnsel waneer je gaat scrollen.
 
+https://github.com/user-attachments/assets/7d89cd5b-175e-45ee-ba13-21968aaeea4d
+
+Interactie voor filteren
+
+https://github.com/user-attachments/assets/87d70931-2b3b-4ece-970d-dc87af0a38a2
+
 
 
 
