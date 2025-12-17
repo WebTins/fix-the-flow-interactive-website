@@ -1,10 +1,6 @@
+# Buurtcampuskrant
 
-Ontwerp en maak een interactieve website voor een opdrachtgever.
-
-De instructie vind je in: [INSTRUCTIONS.md](https://github.com/fdnd-task/fix-the-flow-interactive-website/blob/main/docs/INSTRUCTIONS.md)
-
-# Titel
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
+Tijdens sprint 5 ben ik vooral bezig geweest met de feedback verwerken van de vorige sprints voor de Buurtcampuskrant. Ik heb me ook gericht om een interactie toe te voegenGd
 
 ## Beschrijving
 <!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
