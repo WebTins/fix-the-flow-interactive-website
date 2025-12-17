@@ -24,10 +24,14 @@ Het ontwerp dat ik heb gekozen is de afgelopen paar sprints wel aangepast maar o
 
   <img width="158" height="57" alt="image" src="https://github.com/user-attachments/assets/3b0ea827-e90a-4058-a26b-6a6c20093a2f" /> <img width="162" height="58" alt="image" src="https://github.com/user-attachments/assets/4d3ea51a-9460-4f8c-9c1c-ee7f847841bf" />
 
+### Feature
+
+Scroll animatie heb ik toegevoegd voor een mooie verschijnsel waneer je gaat scrollen.
+
+
 
 
 ## Kenmerken
-<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met JS gedaan en hoe? -->
 
 ## Bronnen
 
