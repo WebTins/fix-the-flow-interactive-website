@@ -467,7 +467,7 @@ footer {
     height: 1.5em;
     transition: 0.5s;
     padding-left: 2em;
-    background-image: url("/assets/mail-knop.png");
+    background-image: url("../assets/mail-knop.png");
     background-size: 1.4em auto;
     background-repeat: no-repeat;
     background-position: .550em center;
