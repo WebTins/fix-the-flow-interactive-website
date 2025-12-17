@@ -7,6 +7,8 @@ De Buurtcampuskrant is een digitale krant die iedereen kan lezen maar voornameli
 
 ### Vraag van de opdrachtgever
 Maak een website die gebruikers kunnen gebruiken als een digitale krant waar ze nieuws kunnen lezen en kunnen filteren op doelgroep. De digitale krant moet dezelfde uiterlijk en gevoel geven zoals de fysieke krant die elke 1,5 jaar wordt uitgebracht.
+
+Link naar de website: https://webtins.github.io/fix-the-flow-interactive-website/
  
 ## Beschrijving
 <!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
