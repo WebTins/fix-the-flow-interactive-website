@@ -20,6 +20,12 @@ Link naar de website: https://webtins.github.io/fix-the-flow-interactive-website
 ### Ontwerpkeuze
 Het ontwerp dat ik heb gekozen is de afgelopen paar sprints wel aangepast maar ook weer hetzelfde gebleven. De reden waarom ik mijn onterwerpkeuzes heb aangepast is omdat ik bij een toegankelijkheidstest heb ontdekt dat de het contrast van de knoppen en het achtergrond niet voldoende waren. Dus ik heb besloten om de knoppen een ander kleur te geven die het contrast verbeteren. De reden waarom het contrast belangrijk is, is omdat gebruikers met visuele beperkingen ook de knoppen goed moeten zien om te kunnen interacteren. 
 
+<img width="1338" height="791" alt="image" src="https://github.com/user-attachments/assets/27b466b3-bb24-491c-9fbc-cb66761a767e" />
+
+<img width="677" height="789" alt="image" src="https://github.com/user-attachments/assets/8043eba7-dd51-4858-8b8a-309cccb3fb04" />
+
+
+
 * Kleur verandering van Lees meer knop
 
   <img width="158" height="57" alt="image" src="https://github.com/user-attachments/assets/3b0ea827-e90a-4058-a26b-6a6c20093a2f" /> <img width="162" height="58" alt="image" src="https://github.com/user-attachments/assets/4d3ea51a-9460-4f8c-9c1c-ee7f847841bf" />
