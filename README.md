@@ -17,6 +17,7 @@ Link naar de website: https://webtins.github.io/fix-the-flow-interactive-website
   * [Bronnen](#bronnen)
  
 ## Beschrijving
+
 ### Ontwerpkeuze
 Het ontwerp dat ik heb gekozen is de afgelopen paar sprints wel aangepast maar ook weer hetzelfde gebleven. De reden waarom ik mijn onterwerpkeuzes heb aangepast is omdat ik bij een toegankelijkheidstest heb ontdekt dat de het contrast van de knoppen en het achtergrond niet voldoende waren. Dus ik heb besloten om de knoppen een ander kleur te geven die het contrast verbeteren. De reden waarom het contrast belangrijk is, is omdat gebruikers met visuele beperkingen ook de knoppen goed moeten zien om te kunnen interacteren. 
 
@@ -94,16 +95,19 @@ De website voldoet aan het contrast via de toegankelijkheidstesten:
 
 <img width="1919" height="909" alt="image" src="https://github.com/user-attachments/assets/3191bfa3-8d37-438e-92d6-eb5457005afb" />
 
-
-
-
-
-
 ### Belangrijke aspecten in CSS
 
 De website maakt gebruikt van de stylesheet die wordt ingeladen waar de huisstijl van het Buurtcampus in staat. Verder is er ook een aparte CSS bestand die andere stijling toevoegd in de website.
 
+### Belangrijke aspecten Javascript
+
+Javascript wordt gebruikt om de popup van de filter te laten verschijnen en ook om het weer te laten verdwijnen.
+
 ## Bronnen
+
+Figma: https://www.figma.com/design/GRdLpkhxYTfgDDJRlVFulP/Untitled?node-id=0-1&t=Itwj2EkjxaMF04SN-1
+
+Stylesheet: https://webtins.github.io/look-and-feel-styleguide/
 
 ## Licentie
 
