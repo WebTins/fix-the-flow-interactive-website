@@ -92,8 +92,6 @@ De website voldoet aan het contrast via de toegankelijkheidstesten:
 
 <img width="1919" height="906" alt="image" src="https://github.com/user-attachments/assets/cae44ff4-7399-47be-9973-1bb6c2ff988d" />
 
-<img width="1919" height="906" alt="image" src="https://github.com/user-attachments/assets/4d1f393b-db87-444e-98c8-c5216d9cc91f" />
-
 <img width="1919" height="909" alt="image" src="https://github.com/user-attachments/assets/3191bfa3-8d37-438e-92d6-eb5457005afb" />
 
 
